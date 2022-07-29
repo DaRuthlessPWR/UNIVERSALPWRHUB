@@ -21,3 +21,10 @@ MainSection:NewKeybind("Toggle UI", "Toggle hub", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
 
+-- Tools
+local ToolsTab = Window:NewTab("Tools")
+local ToolsSection = Main:NewSection("Tools")
+
+ToolsSection:NewButton("PWR RTX", "Best RTX can be laggy in high demand games", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fMHgDVD7", true))()
+end)
