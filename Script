@@ -37,3 +37,12 @@ end)
 ToolSection:NewButton("IYield", "Best Admin (not made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
+-- Dev
+local DevTab = Window:NewTab("Dev")
+local DevSection = DevTab:NewSection("Dev")
+
+
+DevSection:NewButton("Rspy", "Best Rspy (not made by me)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+end)
