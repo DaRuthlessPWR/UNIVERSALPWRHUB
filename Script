@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("TITLE", "Synapse")
+
+-- Games
+local Main = Window:NewTab("Games")
+local MainSection = Main:NewSection("Games")
+ 
+ 
+MainSection:NewButton("Project Avatar", "Best Project avatar GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/%7BPA%7D%20PWR%20HUB%20BETA%20Free%20(2).txt"))()
+    end)
