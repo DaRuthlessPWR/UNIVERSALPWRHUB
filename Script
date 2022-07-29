@@ -28,6 +28,15 @@ MainSection:NewButton("Pet Sim x", "Best Autofarm Gui(not made by me)", function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 end)
 
+MainSection:NewButton("Combat Warrior AUTOHIT", "BIT LAGGY CAN GET KICKED(remade made by me)", function()
+    _G.killAuraEnabled = true
+_G.infiniteStamina = true
+_G.killAuraRange = 10
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelLovesPie/verm_releases/main/combat_warriors.lua", true))()
+end)
+
+
 MainSection:NewKeybind("Toggle UI", "Toggle hub", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
