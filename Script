@@ -11,6 +11,10 @@ MainSection:NewButton("Project Avatar", "Best Project avatar GUI(made by me)", f
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/%7BPA%7D%20PWR%20HUB%20BETA%20Free%20(2).txt"))()
 end)
 
+MainSection:NewButton("Project Slayer HUB", "Best Autofarm Gui(not made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/noRynx/miningsim/main/projectslayers"))()
+end)
+
 MainSection:NewButton("Prison Life", "Best Prison Life GUI(modified by me)", function()
     loadstring('HASHPX,LOADPX = "0092foz62c3unz2exvc32e3ur75ez9x6",true')()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/prevail-remake/main/prevv2.lua", true))()
