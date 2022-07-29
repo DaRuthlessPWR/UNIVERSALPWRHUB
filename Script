@@ -32,5 +32,5 @@ end)
 
 
 ToolSection:NewButton("IYield", "Best Admin", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/fMHgDVD7", true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
