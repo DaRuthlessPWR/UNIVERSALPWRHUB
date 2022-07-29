@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("TITLE", "Synapse")
+local Window = Library.CreateLib("U/A PWR HUB", colors)
 
 -- Games
 local Main = Window:NewTab("Games")
@@ -10,3 +10,19 @@ local MainSection = Main:NewSection("Games")
 MainSection:NewButton("Project Avatar", "Best Project avatar GUI", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/%7BPA%7D%20PWR%20HUB%20BETA%20Free%20(2).txt"))()
     end)
+
+
+
+
+MainSection:NewKeybind("Toggle UI", "Toggle hub", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+-- Custom
+local Tab = Window:NewTab("Customize UI")
+local Section = Tab:NewSection("Customize UI")
+
+Section:NewColorPicker("Color Text", "Color Info", Color3.fromRGB(0,0,0), function(color)
+    print(color)
+    -- Second argument is the default color
+end)
