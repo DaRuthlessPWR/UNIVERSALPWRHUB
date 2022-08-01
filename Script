@@ -8,7 +8,7 @@ local MainSection = Main:NewSection("Games")
  
  
 MainSection:NewButton("Project Avatar", "Best Project avatar GUI(made by me)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/%7BPA%7D%20PWR%20HUB%20BETA%20Free%20(2).txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/pwr%20hub%20test"))()
 end)
 
 MainSection:NewButton("Project Slayer HUB", "Best Autofarm Gui(not made by me)", function()
