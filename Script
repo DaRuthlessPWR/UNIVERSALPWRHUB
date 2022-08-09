@@ -24,6 +24,10 @@ MainSection:NewButton("Blox Fruit(TEST_KEY)", "Best Blox Fruit GUI(not made by m
     loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/BT1"))()
 end)
 
+MainSection:NewButton("ABL", "Best ABL GUI(made by me)", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DaRuthlessPWR/ABL-BTA/main/script'),true))()
+end)
+
 MainSection:NewButton("Shindo AutoFarm/AutoRank", "Best Autofarm Gui(not made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
