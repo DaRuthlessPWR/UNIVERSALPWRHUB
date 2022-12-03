@@ -11,8 +11,8 @@ MainSection:NewButton("Project Avatar", "Best Project avatar GUI(made by me)", f
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/pwr%20hub%20test"))()
 end)
 
-MainSection:NewButton("Project Slayer HUB", "Best Autofarm Gui(not made by me)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/noRynx/miningsim/main/projectslayers"))()
+MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
 MainSection:NewButton("Prison Life", "Best Prison Life GUI(modified by me)", function()
@@ -24,6 +24,10 @@ MainSection:NewButton("Blox Fruit", "Best Blox Fruit GUI(made by me)", function(
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PWRGUIBF/main/GUIBF", true))()
 end)
 
+MainSection:NewButton("Blox Fruit HUB", "Best Blox Fruit GUI(not made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bf",true))()
+end)
+
 MainSection:NewButton("ABL", "Best ABL GUI(made by me)", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/DaRuthlessPWR/ABL-BTA/main/script'),true))()
 end)
@@ -32,11 +36,19 @@ MainSection:NewButton("Shindo AutoFarm/AutoRank", "Best Autofarm Gui(not made by
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
+MainSection:NewButton("WestBound Gui", "Best WestBound Gui(not made by me)", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/WESTBOUND", true))();
+end)
+
+MainSection:NewButton("DaHood Rayx Gui", "Best Autofarm Gui(not made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
 MainSection:NewButton("Pet Sim x", "Best Autofarm Gui(not made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 end)
 
-MainSection:NewButton("Combat Warrior AUTOHIT", "BIT LAGGY CAN GET KICKED(not made by me)", function()
+MainSection:NewButton("Combat Warrior Best Gui", "Best(not made by me)", function()
 local load_,l,g = 
 "https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE",function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r)
 end)
