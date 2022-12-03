@@ -20,8 +20,8 @@ MainSection:NewButton("Prison Life", "Best Prison Life GUI(modified by me)", fun
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/prevail-remake/main/prevv2.lua", true))()
 end)
 
-MainSection:NewButton("Blox Fruit(TEST_KEY)", "Best Blox Fruit GUI(not made by me)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/BT1"))()
+MainSection:NewButton("Blox Fruit", "Best Blox Fruit GUI(made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PWRGUIBF/main/GUIBF", true))()
 end)
 
 MainSection:NewButton("ABL", "Best ABL GUI(made by me)", function()
@@ -36,12 +36,9 @@ MainSection:NewButton("Pet Sim x", "Best Autofarm Gui(not made by me)", function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 end)
 
-MainSection:NewButton("Combat Warrior AUTOHIT", "BIT LAGGY CAN GET KICKED(remade made by me)", function()
-    _G.killAuraEnabled = true
-_G.infiniteStamina = true
-_G.killAuraRange = 10
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelLovesPie/verm_releases/main/combat_warriors.lua", true))()
+MainSection:NewButton("Combat Warrior AUTOHIT", "BIT LAGGY CAN GET KICKED(not made by me)", function()
+local load_,l,g = 
+"https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE",function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r)
 end)
 
 
