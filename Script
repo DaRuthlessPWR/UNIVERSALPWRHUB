@@ -28,6 +28,10 @@ MainSection:NewButton("Blox Fruit HUB", "Best Blox Fruit GUI(not made by me)", f
     loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bf",true))()
 end)
 
+MainSection:NewButton("Adopt Me Ginger AutoFarm", "Best Autofarm Gui(not made by me)", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/zZngtWTE"),true))()
+end)
+
 MainSection:NewButton("ABL", "Best ABL GUI(made by me)", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/DaRuthlessPWR/ABL-BTA/main/script'),true))()
 end)
