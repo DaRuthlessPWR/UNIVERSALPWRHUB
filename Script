@@ -15,6 +15,14 @@ MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", fu
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
 end)
 
+MainSection:NewButton("SILENT AIM BEST", "Best Project avatar GUI(made by me)", function()
+    --// Created By Nosssa & Atman Supports 95% of roblox games!
+ 
+--// Roblox Group ( TeamNosss! ): https://www.roblox.com/groups/16003304/TeamNosss#!/about
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+end)
+
 MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
