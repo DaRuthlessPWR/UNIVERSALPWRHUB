@@ -7,8 +7,12 @@ local Main = Window:NewTab("Games")
 local MainSection = Main:NewSection("Games")
  
  
-MainSection:NewButton("Project Avatar", "Best Project avatar GUI(made by me)", function()
+MainSection:NewButton("ABW2 MANUALFARM", "Best Project avatar GUI(made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/pwr%20hub%20test"))()
+end)
+
+MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
 end)
 
 MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
