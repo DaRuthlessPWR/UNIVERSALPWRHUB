@@ -94,7 +94,7 @@ MainSection:NewKeybind("Toggle UI", "Toggle hub", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
 
--- Tool
+-- Troll
 local TrollTab = Window:NewTab("Troll")
 local TrollSection = TrollTab:NewSection("Troll")
 
@@ -1390,6 +1390,10 @@ local ToolSection = ToolTab:NewSection("Tool")
 
 ToolSection:NewButton("PWR RTX", "Best RTX can be laggy in high demand games (made by me)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/fMHgDVD7", true))()
+end)
+
+ToolSection:NewButton("Dark Dex", "Best Dex (not made by me)", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/fPP8bZ8Z"))()
 end)
 
 
