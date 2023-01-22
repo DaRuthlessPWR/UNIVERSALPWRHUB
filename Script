@@ -23,6 +23,26 @@ MainSection:NewButton("SILENT AIM BEST", "Best Project avatar GUI(made by me)", 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
 end)
 
+MainSection:NewButton("Notifier", "notify if user joins(made by me)", function()
+    local lib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AbstractPoo/Main/main/Notifications.lua"),true))()
+
+local function notif(plr)
+   local message
+   if plr.Name ~= plr.DisplayName then
+       message = plr.Name .. " (" .. plr.DisplayName .. ") has joined"
+   else
+       message = plr.Name .. " has joined"
+   end
+   lib:notify{
+       Title = "New player connected",
+       Description = message,
+       Length = 4
+   }
+end
+
+game:GetService("Players").PlayerAdded:Connect(notif)
+end)
+
 MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
