@@ -43,6 +43,10 @@ end
 game:GetService("Players").PlayerAdded:Connect(notif)
 end)
 
+MainSection:NewButton("Logs", "Best Autofarm Gui(not made by me)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UsMtXCJi"))()
+end)
+
 MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
