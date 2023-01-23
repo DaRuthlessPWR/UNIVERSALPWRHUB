@@ -11,6 +11,10 @@ MainSection:NewButton("ABW2 MANUALFARM", "Best Project avatar GUI(made by me)", 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/pwr%20hub%20test"))()
 end)
 
+MainSection:NewButton("ABW2 RANGE EXTENDER+ESP", "Best Project avatar GUI(made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/kinx/main/arsenal"))()
+end)
+
 MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
 end)
