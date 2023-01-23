@@ -43,8 +43,8 @@ end
 game:GetService("Players").PlayerAdded:Connect(notif)
 end)
 
-MainSection:NewButton("Logs", "Best Autofarm Gui(not made by me)", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UsMtXCJi"))()
+MainSection:NewButton("Universal Combat", "Best Combat Gui(not made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/Redline/main/loader.lua'))()
 end)
 
 MainSection:NewButton("DaHood SwagMode", "Best Autofarm Gui(not made by me)", function()
@@ -1412,4 +1412,8 @@ local DevSection = DevTab:NewSection("Dev")
 
 DevSection:NewButton("Rspy", "Best Rspy (not made by me)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+end)
+
+DevSection:NewButton("Player Spy", "Best playerspy (not made by me)", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/PJvWNJmq"),true))()
 end)
