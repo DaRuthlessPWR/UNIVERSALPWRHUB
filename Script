@@ -15,6 +15,10 @@ MainSection:NewButton("ABW2 RANGE EXTENDER+ESP", "Best Project avatar GUI(made b
     loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/kinx/main/arsenal"))()
 end)
 
+MainSection:NewButton("ABW2 hitbox extend(for bending melee moves)", "Best Project avatar GUI(made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
+end)
+
 MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
 end)
