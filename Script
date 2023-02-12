@@ -7,8 +7,12 @@ local Main = Window:NewTab("Games")
 local MainSection = Main:NewSection("Games")
  
  
-MainSection:NewButton("ABW2 MANUALFARM", "Best Project avatar GUI(made by me)", function()
+MainSection:NewButton("ABW2 HUB", "Best Project avatar GUI(made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/PA-PWR-HUB/main/pwr%20hub%20test"))()
+end)
+
+MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
 end)
 
 MainSection:NewButton("ABW2 RANGE EXTENDER+ESP", "Best Project avatar GUI(made by me)", function()
@@ -19,8 +23,8 @@ MainSection:NewButton("ABW2 hitbox extend(for bending melee moves)", "Best Proje
     loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
 end)
 
-MainSection:NewButton("ABW2 AUTOFARM", "Best Project avatar GUI(made by me)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/paauto/main/script"))()
+MainSection:NewButton("ABW HUB", "Best abw GUI(made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/ablgui/main/gui", true))()
 end)
 
 MainSection:NewButton("SILENT AIM BEST", "Best Project avatar GUI(made by me)", function()
