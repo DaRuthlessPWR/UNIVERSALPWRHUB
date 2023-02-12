@@ -1426,6 +1426,10 @@ DevSection:NewButton("Rspy", "Best Rspy (not made by me)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
 end)
 
+DevSection:NewButton("Cords", "cords", function()
+    setclipboard(tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position))
+end)
+
 DevSection:NewButton("Player Spy", "Best playerspy (not made by me)", function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/PJvWNJmq"),true))()
 end)
