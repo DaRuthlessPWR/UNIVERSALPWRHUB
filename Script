@@ -140,6 +140,13 @@ TrollSection:NewButton("FE Troll Admin", "Best FE Troll (not made by me)", funct
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua'),true))()
 end)
 
+TrollSection:NewButton("FE SPAM GAMES OOF", "Best FE Troll (not made by me)", function()
+getgenv().lol = true while lol do for _, sound in next, workspace:GetDescendants() do if sound:IsA("Sound") then sound:Play() wait() 
+      end 
+    end 
+ end
+end)
+
 TrollSection:NewButton("Legon X", "Best FE Troll Hub(not made by me)", function()
     game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Notification";
