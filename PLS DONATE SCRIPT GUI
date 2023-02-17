@@ -1,0 +1,106 @@
+loadstring("local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
+local Window = OrionLib:MakeWindow({Name = "a pls donate script by scow", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText="why did i make this"})
+
+local home = Window:MakeTab({Name = "Home", Icon = "https://www.roblox.com/library/", PremiumOnly = false})
+local homeS = home:AddSection({Name = "Home"})
+homeS:AddLabel("Hey there, "..game.Players.LocalPlayer.Name.."!")
+local homeU = home:AddSection({Name = "Updates"})
+homeU:AddLabel("Release!")
+
+settings = {
+    autothank = false,
+    autothank_text = "Thanks for the donation!",
+
+    chatspam = false,
+    chatspam_delay = 10,
+    chatspam_text = "Pls donate daddies",
+
+    rainbowtext = false,
+    rainbowtext_text = "hi",
+
+    nevergonnagiveyouup = false -- wait what
+}
+
+local module = require(game.ReplicatedStorage.Remotes)
+local event = module.Event("SetBoothText")
+
+if settings.nevergonnagiveyouup then
+    repeat 
+        event:FireServer("Never gonna give you up", "booth")
+        wait(2)
+        event:FireServer("Never gonna let you down", "booth")
+        wait(2)
+        event:FireServer("Never gonna run around and desert you", "booth")
+        wait(2)
+        event:FireServer("Never gonna make you cry", "booth")
+        wait(2)
+        event:FireServer("Never gonna say goodbye", "booth")
+        wait(2)
+        event:FireServer("Never gonna tell a lie and hurt you", "booth")
+        wait(2)
+        event:FireServer("We've known each other for so long", "booth")
+        wait(2)
+        event:FireServer("Your heart's been aching, but you're too shy to say it (say it)", "booth")
+        wait(2)
+        event:FireServer("Inside, we both know what's been going on (going on)", "booth")
+        wait(2)
+        event:FireServer("We know the game and we're gonna play it", "booth")
+        wait(2)
+        event:FireServer("And if you ask me how I'm feeling", "booth")
+        wait(2)
+        event:FireServer("Don't tell me you're too blind to see", "booth")
+        wait(2)
+    until settings.nevergonnagiveyouup == false
+end
+
+local main = Window:MakeTab({Name = "Main", Icon = "https://www.roblox.com/library/", PremiumOnly = false})
+--local nevergonnagiveuup = main:AddSection({Name = "wait what"})
+local autothank = main:AddSection({Name = "Autothank"})
+local chatspam = main:AddSection({Name = "Chat Wrecker"})
+
+-- autothank
+autothank:AddToggle({Name = "Autothank",Default = false,
+        Callback = function(Value)
+            settings.autothank = Value
+    end})
+autothank:AddTextbox({Name = "Autothank Text",Default = "Thanks for the donation!",TextDisappear = false,
+    Callback = function(Value)
+        settings.autothank_text = Value
+    end})
+game.Players.LocalPlayer.leaderstats.Raised.Changed:Connect(function()
+    if settings.autothank then
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(settings.autothank_text, "all")
+    else
+        print("no autothank")
+    end
+end)
+
+chatspam:AddToggle({Name = "Chat Spam",Default = false,
+        Callback = function(Value)
+            settings.chatspam = Value
+    end})
+chatspam:AddTextbox({Name = "Chat Spam Text",Default = "Pls donate daddies",TextDisappear = false,
+    Callback = function(Value)
+        settings.chatspam_text = Value
+end})
+chatspam:AddSlider({
+	Name = "Spam Delay {Can take time to update!}",
+	Min = 1,
+	Max = 120,
+	Default = 10,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "second chat delay!",
+	Callback = function(Value)
+		settings.chatspam_delay = Value
+	end    
+})
+
+while wait(settings.chatspam_delay) do
+    if settings.chatspam then
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(settings.chatspam_text, "all")
+    else
+        print('no chat spam')
+    end
+end
+")()
