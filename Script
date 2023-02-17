@@ -19,7 +19,14 @@ MainSection:NewButton("ABW2 RANGE EXTENDER+ESP", "Best Project avatar GUI(made b
     loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/kinx/main/arsenal"))()
 end)
 
-MainSection:NewButton("ABW2 hitbox extend(for bending melee moves)", "Best Project avatar GUI(made by me)", function()
+MainSection:NewButton("Marvelous BattleGround", "Unlock all characters", function()
+   game.Players.LocalPlayer.UserId = 52378311
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+
+-- reset when the leaderboard disappears
+end)
+
+MainSection:NewButton("Hitbox Extend(for bending melee moves)", "Best Project avatar GUI(made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
 end)
 
@@ -55,7 +62,7 @@ end
 game:GetService("Players").PlayerAdded:Connect(notif)
 end)
 
-MainSection:NewButton("Universal Combat", "Best Combat Gui(not made by me)", function()
+MainSection:NewButton("Universal GUI", "Best Combat Gui(not made by me)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/Redline/main/loader.lua'))()
 end)
 
