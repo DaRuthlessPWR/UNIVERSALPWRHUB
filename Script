@@ -26,12 +26,16 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
 -- reset when the leaderboard disappears
 end)
 
-MainSection:NewButton("Hitbox Extend(for bending melee moves)", "Best Project avatar GUI(made by me)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
-end)
-
 MainSection:NewButton("ABW HUB", "Best abw GUI(made by me)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/ablgui/main/gui", true))()
+end)
+
+MainSection:NewButton("PLS DONATE GUI", "Best PLS DONATE GUI(made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DaRuthlessPWR/UNIVERSALPWRHUB/main/PLS%20DONATE%20SCRIPT%20GUI'))()
+end)
+
+MainSection:NewButton("Hitbox Extend(for bending melee moves)", "Best Project avatar GUI(made by me)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
 end)
 
 MainSection:NewButton("SILENT AIM BEST", "Best Project avatar GUI(made by me)", function()
