@@ -1448,6 +1448,10 @@ DevSection:NewButton("Rspy", "Best Rspy (not made by me)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
 end)
 
+DevSection:NewButton("Info Tool", "Best info-tool (made by me)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRuthlessPWR/UNIVERSALPWRHUB/main/info-tool", true))()
+end)
+
 DevSection:NewButton("Cords", "cords", function()
     setclipboard(tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position))
 end)
